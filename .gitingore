@@ -1,2 +1,6 @@
-/.vscode
-/.testfile
+# Folder
+.vscode
+.testfile
+
+# File
+*.exe
