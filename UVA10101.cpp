@@ -38,6 +38,7 @@ int main(int argc, char *argv[])
 	long long n;
 	size_t counter = 0;
 	while (cin >> n) {
+        // setw(4) 類似 %4d 
 		cout << setw(4) << ++counter << ".";
 		if (n == 0) { cout << " 0"; }
 		else func(n);
