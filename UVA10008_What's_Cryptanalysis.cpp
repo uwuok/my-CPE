@@ -6,6 +6,7 @@ int main(void)
 	int n, maximum = 0;
 	int table[26] = {0};
 	while (cin >> n) {
+        // 清除緩衝區中的 \n 
 		cin.ignore(1, '\n');
 		string str;
 		for (int i = 0; i < n; ++i) {
